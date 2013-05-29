@@ -9316,9 +9316,9 @@ $(function(){
 					var file_id = val[0];
 					var width = val[1];
 					var height = val[2];
-                    var cmsName = 'ezPublish'
-                    var cmsVersion = '4.3.0'
-					var iframe = '<iframe src="http://apps.groupdocs.com/document-viewer/embed/'+file_id+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="'+width+'" height="'+height+'"></iframe>';
+                    var cmsName = 'ezPublish-Viewer'
+                    var cmsVersion = '1.0'
+					var iframe = '<iframe src="http://apps.groupdocs.com/document-viewer/embed/'+file_id+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="'+width+'" height="'+height+'">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browser such as Mozilla Firefox or Google Chrome. For more help, please check our documentation Wiki: http://groupdocs.com/docs/display/Viewer/GroupDocs+Viewer+Integration+with+3rd+Party+Platforms</iframe>';
 					var re = new RegExp(key,"gi");
 					$('#main').html( $('#main').html().replace(re,iframe) );
 				});

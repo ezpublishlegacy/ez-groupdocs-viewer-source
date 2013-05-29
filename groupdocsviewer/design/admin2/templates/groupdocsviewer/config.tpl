@@ -67,10 +67,10 @@ Actions
     }
 
 	function vew(fileid){
-        cmsName = 'ezPublish'
-        cmsVersion = '4.3.0'
+        cmsName = 'ezPublish-Viewer'
+        cmsVersion = '1.0'
 		myWindow=window.open('','','width=500,height=300')
-		myWindow.document.write('<iframe src="http://apps.groupdocs.com/document-viewer/embed/'+fileid+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="100%" height="100%"></iframe>')
+		myWindow.document.write('<iframe src="http://apps.groupdocs.com/document-viewer/embed/'+fileid+'?&referer='+cmsName+'/'+cmsVersion+'" frameborder="0" width="100%" height="100%">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browser such as Mozilla Firefox or Google Chrome. For more help, please check our documentation Wiki: http://groupdocs.com/docs/display/Viewer/GroupDocs+Viewer+Integration+with+3rd+Party+Platforms</iframe>')
 	}
 -->
 </script>
